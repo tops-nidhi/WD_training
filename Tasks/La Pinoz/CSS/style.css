@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+/* body{
+    overflow-x: hidden;
+} */
+a{
+    text-decoration: none;
+}
+/* header start */
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 1fr;
+    line-height: 62px;  
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    /* padding: 5px 0; */
+    box-shadow: 0px 10px 25px -10px rgb(0 0 0 / 20%);
+    top: 0;
+    z-index: 1;
+}
+header img{
+    height: 70px;
+    width: 190px;
+} 
+header .button button{
+    height: 20px;
+    width: 24px;
+    display: none;
+    background-color: #fff;
+    font-size: 24px;
+    border: none;
+}
+header .button button i{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+header ul a{
+    text-decoration: none;
+    background: #fff;
+    color: #28a745;
+    font-weight: normal;
+    bottom: 0;
+    /* font-size: 19px; */
+}
+header li{
+    display: inline;
+    padding-left: 20px;
+}
+header .login{
+    height: 50%;
+}
+header .login button{
+    height: 37px;
+    width: 65px;
+    background: #00572d;
+    color: #fff;
+    border: 1px;
+    border-radius: 7px;
+
+}
+header .login button a{
+    /* background: #00572d; */
+    text-decoration: none;
+    color: #fff;
+}
+/* header end */
+/* Banner Start */
+.ban{
+    margin-top: 4.5em;
+    text-align: center;
+
+}
+.banner{
+    height: 520px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    position: relative;
+}
+.slider-img{
+    position: absolute;
+    /* background: rgb(0, 0, 0, 0.6); */
+    height: 100%;
+    width: 100%;
+    filter: brightness(50%) !important;
+}
+.slider-text{
+    position: absolute;
+    margin-left: 500px;
+}
+.slider-img img{
+    height: 100%;
+    width: 100%;
+}
+.banner h1 {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 50px;
+
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 100px;
+}
+.banner h1 span{
+    color: #ffff00;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 0;
+}
+.banner h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 27px;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 100px;
+}
+.banner button{
+    background-color: #000;
+    height: 60px;
+    width: 170px;
+    border-radius: 70px;
+    text-align: center;
+    /* margin-left: 600px; */
+    color: #fff;
+
+}
+/* .banner button a{
+    text-decoration: none;
+    color: #fff;
+} */
+/* Banner End */
+/* Deal Start */
+.deal{
+    margin: 50px 70px;
+}
+.header-deals{
+    /* margin: 20px 10px; */
+    font-size: 25px;
+}
+.deals-img img{
+    border-radius: 20px;
+    margin: 20px 50px 0px 50px;
+    height: 250px;
+    width: 450px;
+}
+/* Deal End */
+/* Container Start */
+.explore{
+    padding: 25px 0;
+    background: #f8f8f8;
+}
+/* .container{
+
+} */
+.container h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.container img{
+    height: 200px;
+}
+/* Container End */
+
+
+.banner1{
+    height: 500px;
+    background-color: #00572d;
+}
+.banner2{
+    height: 500px;
+    background-color: #28a745;
+}.banner3{
+    height: 500px;
+    background-color: #00572d;
+}

@@ -1,0 +1,118 @@
+@media(max-width: 500px)
+{
+    .header{
+        /* width    : 400px; */
+        /* width: 800px; */
+        height: 50px;
+        line-height: 20px;
+
+    }
+    .header ul li{
+        display: inline-block; 
+        padding: 3px;
+        margin: 0px;
+        font-size: 12px;
+    }
+    .subheader{
+        display: block;
+        text-align: left;
+        height: 170px;
+        line-height: 60px;
+    }
+    .search{
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+        display: inline;
+    }
+    .search input{
+        margin-left: 10px;
+        margin-top: 10px;
+        /* width: 320px; */
+    }
+    .subheader .logo{       
+        width: 100%;
+        padding: 0;
+        display: inline;
+    }
+    .subheader .logo h1{
+        margin-left: 20px;
+        /* margin-top: 100px; */
+    }
+    .subheader .share{
+        width: 100%;
+        line-height: 0;
+        padding-top: 0;
+        text-align: right;
+    }
+    .share li{
+        text-align: center;
+        display: inline;
+    }
+    .subheader .logo h1{
+        font-size: 30px;
+        margin: 0;
+    }
+    .subheader .front,.back{
+        height: 20px;
+        width: 30px;
+        padding-top: 1px;
+        margin: 0;
+        line-height: 10px;
+    }
+    .subheader .share a{
+        height: 40px;
+        width: 30px;
+    }
+    .navbar{
+        text-align: left;
+        padding: 0px 5px;
+        height: 40px;
+    }
+    .navbar .bar button{
+        display: inline;
+    }
+    .nav-li li{
+        display: none;
+    }
+    .slider-img{
+        height: 400px;
+    }
+    .slider-img .text{
+        margin: 0;
+        padding: 0;
+    }
+    .slider-img .text h3{
+        margin: 0;
+        font-size: 2em;
+        text-align: center;
+    letter-spacing: 6px;
+    line-height: 200px;
+    }
+    .banner-grid{
+        display: block;
+        margin: 0px;
+    }
+    .banner-grid .banner-img1{
+
+        height: 250px;
+        width: 450px;
+    }
+    .banner-grid .banner-img2{
+
+        height: 250px;
+        width: 450px;
+    }
+    .trend{
+        display: block;
+    }
+    .trend .trend-img1{
+        height: 600px;
+        width: 400px;
+    }
+    .trend h3{
+        margin: 0;
+        padding: 0;
+        letter-spacing: 2px;
+    }
+}

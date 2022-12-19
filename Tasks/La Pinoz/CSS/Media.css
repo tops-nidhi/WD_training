@@ -1,0 +1,20 @@
+@media(max-width: 500px)
+{
+    header{grid-template-columns: 1fr 1fr 1fr 1fr;}
+    header .button button{display: inline;}
+    header ul a{display: none;}
+    .banner {
+    height: 450px;
+    width: 500px;
+    }
+    .slider-text{
+        margin: 0;
+    }
+    .banner h1{
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .banner h3{
+        font-size: 22px;
+    }
+} 
